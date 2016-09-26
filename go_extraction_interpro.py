@@ -6,7 +6,7 @@
 
 # download the go-basic.obo from the GO consortium
 
-# grep the Interproscan output file for all entries with GO terms, reduce reduncancy by using a dictionary and sets.
+# cut the Interproscan output file for columns with ID and GO-ID (usually 1,14), then grep for all entries with GO terms, reduce reduncancy by using a dictionary and sets.
 
 # should give a table (pipe with > into an output file) with one identifier and all the GO terms for that identifier.
 
